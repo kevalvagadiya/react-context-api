@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: green;
+}
+
+.btn {
+    color: white;
+    background-color: brown;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn-blue{
+    background-color: rgb(94, 94, 240);
+    color: white;
+    cursor: pointer;
+}
+.btn-blue a {
+    color: white;
+    text-decoration: none;
+}
+
+.input-ele{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.btn-submit {
+    background: green;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
